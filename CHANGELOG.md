@@ -6,7 +6,9 @@ CHANGELOG
 
 * Added the following new values to the payment processor validation:
   `concept_payments`, `ecomm365`, `orangepay`, and `pacnet_services`.
-
+* Upgraded `maxmind/web-service-common` to 0.3.0. This version uses
+  `composer/ca-bundle` rather than our own CA bundle.
+  
 0.6.1 (2016-06-10)
 ------------------
 
